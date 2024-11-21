@@ -1,0 +1,42 @@
+{
+    "$schema": "./zowe.schema.json",
+    "profiles": {
+        "zosmf": {
+            "type": "zosmf",
+            "properties": {
+                "host": "10.156.194.45",
+                "user": "HUZ01UI",
+                "password": "K4fa4yjs",
+                "port": 443
+            }
+        },
+        "tso": {
+            "type": "tso",
+            "properties": {
+                "account": "",
+                "codePage": "1047",
+                "logonProcedure": "IZUFPROC"
+            }
+        },
+        "ssh": {
+            "type": "ssh",
+            "properties": {
+                "port": 22
+            }
+        },
+        "project_base": {
+            "type": "base",
+            "properties": {
+                "host": "",
+                "rejectUnauthorized": true
+            }
+        }
+    },
+    "defaults": {
+        "zosmf": "zosmf",
+        "tso": "tso",
+        "ssh": "ssh",
+        "base": "project_base"
+    },
+    "autoStore": false
+}
