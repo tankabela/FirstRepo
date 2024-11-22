@@ -6,7 +6,7 @@
             "properties": {
                 "host": "10.156.194.45",
                 "user": "HUZ01UI",
-                "password": "K@fa4yjs",
+                "password": "",
                 "rejectUnauthorized": false,
                 "port": 443
             }
