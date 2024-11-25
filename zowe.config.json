@@ -10,34 +10,10 @@
                 "rejectUnauthorized": false,
                 "port": 443
             }
-        },
-        "tso": {
-            "type": "tso",
-            "properties": {
-                "account": "",
-                "codePage": "1047",
-                "logonProcedure": "IZUFPROC"
-            }
-        },
-        "ssh": {
-            "type": "ssh",
-            "properties": {
-                "port": 22
-            }
-        },
-        "global_base": {
-            "type": "base",
-            "properties": {
-                "host": "",
-                "rejectUnauthorized": true
-            }
         }
     },
     "defaults": {
-        "zosmf": "zosmf",
-        "tso": "tso",
-        "ssh": "ssh",
-        "base": "global_base"
-    },
+        "zosmf": "zosmf"
+  },
     "autoStore": false
 }
